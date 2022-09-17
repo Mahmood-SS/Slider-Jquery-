@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slider Jquery</title>
+    <link rel="shortcut icon" href="https://media.istockphoto.com/photos/feline-picture-id108226626?k=20&m=108226626&s=612x612&w=0&h=bDaWwxhcygjerdR71qQu8YFSXaDUIi_HUZV2AADg5L8=" type="image/x-icon">
+  </head>
+  <link rel="stylesheet" type="text/css" href="final.css" />
+
+  <body>
+    <h1>koya university</h1>
+
+    <div class="image_text">
+      <img src="1.jpg" id="img" />
+      <div id="txt"></div>
+    </div>
+
+    <div class="button">
+      <button onclick="first_image();">First</button>
+      <button onclick="next_image();" id="btnnext">Next</button>
+      <button onclick="prev_image();" id="btnprev">Previous</button>
+      <button onclick="last_image();">Last</button>
+    </div>
+
+    <div class="size">
+      <button onclick="grow_image();">Grow</button>
+      <button onclick="shrink_image();">Shrink</button>
+    </div>
+
+    <footer>
+      Mahmood@WebDevloper
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="final.js"></script>
+  </body>
+</html>
